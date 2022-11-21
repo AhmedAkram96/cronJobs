@@ -33,4 +33,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: 3715016/cron-job-scheduler:latest,mohllal/cron-job-scheduler:${{ steps.slug.outputs.sha7 }}
+          tags: 3715016/cron-job-scheduler:latest,3715016/cron-job-scheduler:${{ steps.slug.outputs.sha7 }}

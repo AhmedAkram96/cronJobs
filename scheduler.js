@@ -11,7 +11,7 @@ module.exports = {
                     job.id = uuidv4();
                     const handler = require(resolve(job.handler))
                     handler();
-                    console.log("the job \"" + key + "\" with id \"" + job.id + "\" is executed at: " + "\"" + new Date().timeNow() + "\"")
+                    console.log("the job \"" + key + "\" with id \"" + job.id + "\" is executed at: " + "\"" + new Date().timeNow() + "\"");
                 })
             }
         })

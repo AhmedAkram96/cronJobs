@@ -1,13 +1,13 @@
 # cronJobs-Scheduler
 
-In this repo, we are creating a tool through which a developer can add a job wrapped inside a function. along with it's detemined date to be executed at. User can specify frequency to which their job execution can follow.
+In this repo, we are creating a tool through which a developer can add a job wrapped inside a function. along with its detemined date to be executed at. User can specify frequency to which their job execution can follow.
 
 ## Run the app with Docker:
 
 1. Run `docker build -t jobScheduler .` 
 2. Run `docker run jobScheduler`
 
-OR, We have added github action workflow in this repo to build and push the docker image to dockerhub:
+OR, We have added github actions workflow in this repo to build and push the docker image to dockerhub:
 
 1. Run `docker run 3715016/cron-job-scheduler:latest`
 
@@ -23,7 +23,7 @@ OR, We have added github action workflow in this repo to build and push the dock
                   console.log("This is the job logic to be executed")
                   }
               ```
-2. Users then should open `config` folder, at which they can append their created job along with it's exact date or frequency to be executed at.
+2. Users then should open `config` folder, at which they can append their created job along with its exact date or frequency to be executed at.
 
     ```
     module.exports = {
